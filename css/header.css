@@ -4,7 +4,7 @@
 #header .logo{
 	margin-top: 10px;
 }
-	@media(max-width: 768px){
+	@media(max-width: 767px){
 		#header .logo{
 			margin-top: 0;
 		}
@@ -13,7 +13,7 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-	@media(max-width: 768px){
+	@media(max-width: 767px){
 		#header .bot{
 			padding: 0;
 		}
@@ -134,7 +134,7 @@
 			}
 
 	/* navigation mobile */
-	@media(max-width: 768px){
+	@media(max-width: 767px){
 		#navigation{ 
 			margin: 0 -15px; 
 			transition: opacity 1s ease-out;
@@ -175,6 +175,12 @@
 			#navigation .nav_dropdown a{
 				padding: 0 10px;
 			}
+	}
+	@media(max-width: 991px){
+		#navigation li{
+			padding-left: 8px;
+			padding-right: 8px;
+		}
 	}
 
 /*=== MENUSWITCHER ===*/

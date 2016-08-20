@@ -1,2 +1,50 @@
-#footer .top{}
-#footer
+#footer .h2_style{
+	margin-bottom: 15px;
+}
+#footer,
+#footer a{
+	font-size: 14px;
+	color: #1c3665;
+	font-weight: 600;
+	line-height: 23px;
+}
+
+#footer .top{
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+	@media(max-width: 991px){
+		#footer .col-sm-4{
+			margin-bottom: 15px;
+		}
+		#footer .col-sm-4:last-child{
+			margin-bottom: 0;
+		}
+	}
+#footer .bot{
+	border-top: 1px solid #8da08c;
+	padding: 8px 0 20px;
+}
+	#footer .bot{
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 35px;
+	}
+	.welldo a{
+		display: inline-block;
+		margin-left: 5px;
+		float: right;
+	}
+	@media(max-width: 767px){
+		#footer .copy,
+		#footer .welldo{
+			text-align: center;
+		}
+		.welldo a{
+			position: relative;
+			top: 11px;
+			left: 0;
+			float: none;
+		}
+	}
+
