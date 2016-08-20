@@ -1,0 +1,9 @@
+.about_gallery{
+	margin: 70px 0 10px;
+}
+	.about_gallery .row div{
+		margin-bottom: 30px;
+	}
+	.about_gallery img{
+		box-shadow: 2px 2px 5px 1px rgba(0,0,0, .2);
+	}

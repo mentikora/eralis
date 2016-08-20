@@ -107,3 +107,9 @@ body{
 	.ck_editor a{
 		color: #3f9b3e;
 	}
+	.ck_editor h2{
+		font-size: 24px;
+		color: #3f9b3e;
+		font-weight: 600;
+		margin-bottom: 15px;
+	}
