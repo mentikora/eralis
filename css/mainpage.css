@@ -1,0 +1,120 @@
+.banner_left{
+	height: 335px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+
+	background: url('images/lumber.jpg') 0 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+	.banner_left .text{
+		position: absolute;
+		top: 50%;
+		margin-top: -40px;
+		left: 0;
+		z-index: 2;
+		line-height: 80px;
+		padding: 22px 35px 22px 15px;
+		
+		text-transform: uppercase;
+		background-color: rgba(37, 117, 78, .8);
+		font-size: 36px;
+		line-height: 36px;
+		color: #ffffff;
+		text-shadow: 2px 2px 4px rgba(0,0,0, .35);
+	}
+
+.banner_right{
+	height: 152px;
+
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+	.banner_right.top{
+		margin-bottom: 31px;
+		background: url(images/banner_1.jpg) no-repeat 0 0;
+		-webkit-background-size: cover;
+		background-size: cover;
+    
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    line-height: 23px;
+    font-weight: 600;
+	}
+	.banner_right.bot{
+		background: url(images/banner_2.jpg) no-repeat 0 0;
+		-webkit-background-size: cover;
+		background-size: cover;
+
+		-webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+	}
+		.banner_right.bot a{
+			color: #fff;	
+			text-decoration: none;
+		}
+	@media(min-width: 767px) and (max-width: 991px){
+		.banner_right.top,
+		.banner_right.bot{
+			width: calc(50% - 15px);
+		}
+			.banner_right.top{
+				margin-right: 15px;
+			}
+			.banner_right.bot{
+				margin-left: 15px;
+			}
+	}
+
+/* welcome text */
+.welcome{}
+	.welcome h2{
+		font-weight: 600;
+		margin-bottom: 15px;
+	}
+	@media(max-width: 991px){
+		.welcome{
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+	}
+/* news_block */
+.news_block{}
+	.news_block h2{
+		margin-bottom: 20px;
+	}
+.news_item{
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+	.news_item:last-child{
+		margin-bottom: 0;
+	}
+	.news_item .date{
+		color: #1c3665;
+	}
+	.news_item a{
+		color: #3f9b3e;
+		font-weight: 600;
+		text-decoration: none;
+		line-height: 23px;
+	}
