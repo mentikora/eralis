@@ -93,6 +93,13 @@ body{
 }
 
 /*=== FONTSTYLE ===*/
+.page_h1{
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 600;
+	color: #3f9b3e;
+	margin-bottom: 15px;
+}
 .h2_style{
   font-size: 24px;
   font-weight: 900;
@@ -134,4 +141,19 @@ body{
 		font-size: 16px;
 		color: #3f9b3e;
 		text-decoration: underline;
+	}
+		.breadcrumb a:hover{
+			text-decoration: none;
+		}
+
+/*=== PAGINATION ===*/
+#pagination_wrapper{
+	text-align: center;
+	font-size: 14px;
+}
+	#pagination_wrapper .pagination{
+		margin: 10px 0 50px 0;
+	}
+	#pagination_wrapper a{
+		color: #3f9b3e;
 	}
