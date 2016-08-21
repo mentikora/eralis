@@ -99,6 +99,16 @@ body{
 	font-weight: 600;
 	color: #3f9b3e;
 	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.page_h2{
+	margin-bottom: 15px;
+
+	font-size: 24px;
+	line-height: 24px;
+	color: #3f9b3e;
+	text-transform: uppercase;
+	font-weight: 900;
 }
 .h2_style{
   font-size: 24px;

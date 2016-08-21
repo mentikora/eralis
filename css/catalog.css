@@ -91,12 +91,9 @@
 		-ms-transition: all .25s ease;
 		-o-transition: all .25s ease;
 		transition: all .25s ease;
-		
 	}
 		.catalog_item .detailed:hover{
-			letter-spacing: 1px;
-			background-color: #ebebeb;
-			color: #3f9b3e;
+			background-color: #4ab548;
 		}
 	.catalog_item .price_wrapper{
 		text-align: center;
