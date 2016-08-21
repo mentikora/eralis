@@ -52,7 +52,16 @@
 		color: #fff;
 		background-color: #3f9b3e;
 		cursor: pointer;
+
+		-webkit-transition: all .25s ease;
+		-moz-transition: all .25s ease;
+		-ms-transition: all .25s ease;
+		-o-transition: all .25s ease;
+		transition: all .25s ease;
 	}
+		.catalog_item .zoom:hover{
+			background-color: #4ab548;
+		}
 	.catalog_item .name{
 		display: block;
 		padding: 5px 8px;
