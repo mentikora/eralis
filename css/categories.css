@@ -1,0 +1,30 @@
+.category_item{
+	display: block;
+	margin-bottom: 31px;
+	box-shadow: 2px 2px 5px 1px rgba(0,0,0, .2);
+	overflow: hidden;
+}
+	.category_item:hover{
+		text-decoration: none;
+		color: #fff;
+	}
+	.category_item:hover .name{
+		background-color: #4ab548;
+	}
+	.category_item .name{
+		-webkit-transition: all .25s ease;
+		-moz-transition: all .25s ease;
+		-ms-transition: all .25s ease;
+		-o-transition: all .25s ease;
+		transition: all .25s ease;
+	}
+	.category_item .name{
+		line-height: 58px;
+
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 18px;
+		color: #fff;
+		background-color: #3f9b3e;
+		font-weight: 900;
+	}
