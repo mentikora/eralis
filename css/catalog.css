@@ -39,8 +39,9 @@
 	border: 1px solid #cccccc;
 	margin-bottom: 31px;
 }	
-	.catalog_item .img_wrapper{ position: relative; }
-	.catalog_item .zoom{
+	/* this style using on catalog_product and product*/
+	.img_wrapper{ position: relative; }
+	.zoom{
 		position: absolute;
 		bottom: 0;
 		right: 0;
@@ -59,7 +60,7 @@
 		-o-transition: all .25s ease;
 		transition: all .25s ease;
 	}
-		.catalog_item .zoom:hover{
+		.zoom:hover{
 			background-color: #4ab548;
 		}
 	.catalog_item .name{

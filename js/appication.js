@@ -12,4 +12,10 @@ $(function() {
 	$('.is_dropdown').on('click', function(){
 		$('.nav_dropdown').toggleClass('open');
 	});
+
+	// product image
+	$(window).on("load resize", function(){
+	  $('#product_img').height( $('#product_img').width() );
+	});
+	
 });
