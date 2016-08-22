@@ -67,6 +67,10 @@ body{
 
 	font-size: 14px;
 	font-family: 'Open Sans', helvetica, arial, sans-serif;
+
+	background: url('images/body_bg.jpg') no-repeat 50% fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 #header{ 
