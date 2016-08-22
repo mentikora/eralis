@@ -172,3 +172,118 @@ body{
 	#pagination_wrapper a{
 		color: #3f9b3e;
 	}
+
+/*=== FORM ===*/
+/* 
+	Using on product.html with position:absolute and contacts.html as static,
+	add custom class to form for monkey-coding :D
+*/
+
+/* onSend message */
+.form_submit_popup{
+  position: absolute;
+  top: 0;
+  left: 15px;
+  z-index: 3;
+  width: calc(100% - 30px );
+  height: 100%;
+  background: #3f9b3e;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  text-align: center;
+  font-size: 22px;
+  color: #fefefe;
+
+  display: none;
+}
+	.form_submit_popup .ico_wr{
+	  width: 68px;
+	  height: 68px;
+	  line-height: 68px;
+	  text-align: center;
+	  margin: 0 auto;
+	  border: 1px solid #fff;
+	  border-radius: 50%;
+	  margin-bottom: 15px;
+	}
+	.form_submit_popup .submit_close{
+	  position: absolute;
+	  top: 7px;
+	  right: 7px;
+	  width: 15px;
+	  height: 20px;
+	  line-height: 20px;
+	  z-index: 3;
+	  
+	  cursor: pointer;
+	  text-align: center;
+	  font-weight: 600;
+	  font-size: 18px;
+	  color: #fefefe;
+	}
+
+/* form style*/
+input[type="text"],
+textarea{
+  border: 3px solid #3f9b3e;
+  width: 100%;  
+  padding-left: 10px;
+  margin-bottom: 15px;
+  
+  background-color: #fff;
+  font-size: 17px;
+  color: #98a6b8;
+}
+input[type="text"]:focus,
+textarea:focus{
+  outline: 0;
+}
+input[type="text"]{
+  height: 46px;
+  line-height: 46px;
+}
+textarea{
+  padding-top: 10px;
+  height: 115px;
+  resize: none;
+}
+input[type="submit"]{
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  width: 100%;
+  border: 0;
+  outline: 0;
+
+  background-color: #3f9b3e;
+  color: #fefefe;
+  font-size: 22px;
+  font-weight: 600;
+
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+  input[type="submit"]:hover{
+    background-color: #4ab548;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0, .2);
+  }
