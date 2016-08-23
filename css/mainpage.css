@@ -110,8 +110,13 @@
       margin-bottom: 15px;
     }
   }
+  
 /* news_block */
-.news_block{}
+@media(min-width: 991px){
+  .news_block{
+    padding-left: 21px;
+  }    
+}
   .news_block h2{
     margin-bottom: 20px;
   }
