@@ -238,6 +238,7 @@ body{
 	}
 
 /* form style*/
+input[type="email"],
 input[type="text"],
 textarea{
   border: 3px solid #3f9b3e;
@@ -249,10 +250,12 @@ textarea{
   font-size: 17px;
   color: #98a6b8;
 }
+input[type="email"]:focus,
 input[type="text"]:focus,
 textarea:focus{
   outline: 0;
 }
+input[type="email"],
 input[type="text"]{
   height: 46px;
   line-height: 46px;
