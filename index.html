@@ -15,10 +15,20 @@
   <div class="row">
 
     <!-- banner left side -->
-    <div class="col-md-9">
+    <div class="col-md-9 hidden-xs">
       <div class="banner_left">
-        <div class="text">купуємо пиломатеріали</div>
-      </div>
+        <ul class="bxslider">
+          <li>
+            <img src="img/catalog_img.jpg" alt="slider image" title="купуємо пиломатеріали">
+          </li>
+          <li>
+            <img src="img/lumber.jpg" alt="slider image" title="купуємо пиломатеріали купуємо">
+          </li>
+          <li>
+            <img src="img/lumber2.jpg" alt="slider image" title="купуємо">
+          </li>
+        </ul>
+      </div> 
     </div>
 
     <!-- banner right side -->
@@ -88,6 +98,19 @@
 <!-- scripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<!-- used only on mainpage, better to include only in index.html -->
+<script src="js/jquery.bxslider.js"></script>
 <script src="js/appication.js"></script>
+
+<script>
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    controls: false,
+    auto: true,
+    pager: false
+  })
+</script>
 </body>
 </html>

@@ -1,4 +1,6 @@
 @import "bootstrap.min.css";
+@import "jquery.bxslider.css";
+
 @import "theme-default.css";
 @import "header.css";
 @import "footer.css";

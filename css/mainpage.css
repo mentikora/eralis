@@ -3,27 +3,7 @@
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 30px;
-
-	background: url('images/lumber.jpg') 0 0;
-	-webkit-background-size: cover;
-	background-size: cover;
 }
-	.banner_left .text{
-		position: absolute;
-		top: 50%;
-		margin-top: -40px;
-		left: 0;
-		z-index: 2;
-		line-height: 80px;
-		padding: 22px 35px 22px 15px;
-		
-		text-transform: uppercase;
-		background-color: rgba(37, 117, 78, .8);
-		font-size: 36px;
-		line-height: 36px;
-		color: #ffffff;
-		text-shadow: 2px 2px 4px rgba(0,0,0, .35);
-	}
 
 .banner_right{
 	height: 152px;
