@@ -118,6 +118,10 @@
 		@media(min-width: 767px) and (max-width: 991px){
 			.nav_dropdown{ left: 8px; }
 		}
+		#navigation .nav_dropdown li{
+			width: 100%;
+			padding: 0;
+		}
 		#navigation .nav_dropdown a{
 			display: block;
 			width: 100%;
