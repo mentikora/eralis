@@ -71,6 +71,8 @@ body{
 	background: url('images/body_bg.jpg') no-repeat 50% fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
+
+  overflow-x: hidden;
 }
 
 #header{ 
