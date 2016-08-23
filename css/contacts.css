@@ -14,5 +14,12 @@
     margin-top: 30px;
     position: relative;
   }
+  .contacts_form_wrapper .close_btn{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    
+    color: #fefefe;
+  }
 
   

@@ -154,3 +154,51 @@ h1.product_title{
 	}
 
 /* product form */
+.product_form{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 10px;
+	z-index: 2;
+
+	background-color: #fff;
+	box-shadow: 2px 2px 5px 1px rgba(0,0,0, .2);
+	display: none;
+}
+	.product_form .form_submit_popup{
+		width: 100%;
+		left: 0;
+		font-size: 18px;
+	}
+	.product_form input[type="submit"]{
+		height: 45px;
+		line-height: 45px;
+		width: 135px;
+		float: right;
+
+		font-size: 18px;
+	}
+		@media(max-width: 767px){
+			.product_form input[type="submit"]{
+				margin: 0 auto;
+				float: none;
+				display: block;
+			}
+		}
+	.product_form .form_close{
+		width: 15px;
+	  height: 20px;
+	  line-height: 20px;
+	  float: right;
+	  position: relative;
+	  z-index: 2;
+	  margin-right: 15px;
+	  margin-bottom: 20px;
+	  
+	  cursor: pointer;
+	  text-align: center;
+	  font-weight: 600;
+	  font-size: 18px;
+	  color: #3f9b3e;
+  }
