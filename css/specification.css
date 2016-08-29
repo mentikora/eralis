@@ -67,3 +67,8 @@
 			text-align: left;
 			padding: 15px 8px;
 		}
+
+/* stripped */
+.specification_table > tbody > tr:nth-child(odd) td {
+  background: #fff;
+}
