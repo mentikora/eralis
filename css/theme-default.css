@@ -123,6 +123,10 @@ body{
   color: #3f9b3e;
 }
 
+.top_title_with_button{
+  margin-top: -15px;
+}
+
 .ck_editor,
 .ck_editor * {
 	font-size: 14px;
@@ -355,3 +359,57 @@ input[type="submit"]{
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
 }
+
+/*=== BACKGROUNDS ===*/
+.sprite,
+.zoom {
+  background-image: url('images/sprite.png');
+  background-repeat: no-repeat;
+  display: block;
+}
+  .zoom {
+    background-position: -21px -580px;
+  }
+  .sprite-call_us {
+    width: 55px;
+    height: 55px;
+    background-position: -30px -30px;
+
+    margin-left: 10px;
+    margin-top: 28px;
+  }
+  .sprite-euro {
+    background-position: -14px -130px;
+  }
+  .sprite-msg_mail_send {
+    background-position: -30px -234px;
+  }
+  .sprite-msg_product_send {
+    background-position: -30px -316px;
+  }
+  .sprite-pdf {
+    background-position: 75px -397px;
+    padding-left: 65px;
+  }
+  .sprite-telephone {
+    background-position: -9px -491px;
+  }
+
+/* preloader */
+.preloader{
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background: rgba(0,0,0, .5);
+  height: 412px;
+  top: 0;
+  left: 0px;
+}
+  .preloader img{
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+

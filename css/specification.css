@@ -72,3 +72,11 @@
 .specification_table > tbody > tr:nth-child(odd) td {
   background: #fff;
 }
+
+/* pdf button */
+.pdf{
+  background-image: url('images/pdf.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) 6px;
+  padding-right: 65px !important; 
+}

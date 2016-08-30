@@ -23,7 +23,7 @@
 	transition: all .25s ease;
 }
 	.ask_question:hover{
-		background: #4ab548;	
+		background-color: #4ab548;	
 		text-decoration: none;
 		color: #fff;
 		box-shadow: 2px 2px 5px 1px rgba(0,0,0, .2);
