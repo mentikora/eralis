@@ -190,7 +190,24 @@
 				padding: 0 10px;
 			}
 	}
-	
+
+.is_dropdown{
+	position: relative;
+}	
+	.is_dropdown:before{
+		content: '';
+		
+		width: 11px;
+		height: 6px;
+		top: 9px;
+		right: -2px;
+		z-index: 2;
+		position: absolute;
+		display: block;
+		cursor: pointer;
+
+		background: url('images/arrow_down.jpg') no-repeat 0 0;
+	}
 
 /*=== MENUSWITCHER ===*/
 .menu_switch{

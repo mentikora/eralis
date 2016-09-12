@@ -210,6 +210,7 @@ body{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -382,10 +383,10 @@ input[type="submit"]{
     background-position: -14px -130px;
   }
   .sprite-msg_mail_send {
-    background-position: -30px -234px;
+    background-position: -13px -212px;
   }
   .sprite-msg_product_send {
-    background-position: -30px -316px;
+    background-position: -16px -297px;
   }
   .sprite-pdf {
     background-position: 75px -397px;
